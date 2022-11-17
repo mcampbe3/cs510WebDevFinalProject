@@ -1,13 +1,16 @@
 :root {
   --white: #FFFFFF;
+  --black: #000000;
   --lightgray: #FFFFFFBF;
   --medgray: #FFFFFF8C;
+  --darkgray: #343A40;
 }
 
-main {
+.mainContent {
+  display: block;
   margin: auto;
   font-size: 18px;
-  width: 50vw;
+  width: 75%;
 }
 
 img {
@@ -17,16 +20,25 @@ img {
   border-radius: 50%;
 }
 
-h2 {
+h2.notForm {
   margin-bottom: 0px;
+  padding-bottom: 5px;
+  border-bottom: solid var(--darkgray) 1px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  border-bottom: solid var(--darkgray) 1px;
+}
+
+.projName {
+  font-style: italic;
+  text-decoration: none;
+  color: var(--black);
 }
 
 p {
   margin-top: 0px;
-}
-
-form {
-  width: 75%;
 }
 
 .logo, .btn-primary {
@@ -41,12 +53,17 @@ form {
   color: var(--lightgray);
 }
 
+li a.nav-link:hover {
+  border-bottom: solid var(--lightgray) 1px;
+}
+
 #navLast {
   padding-right: 50px;
 }
 
-#intro {
+.bg-light {
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 769px) {
@@ -60,11 +77,6 @@ form {
 }
 
 @media only screen and (max-width: 768px) {
-  #intro {
-    width: 75vw;
-    margin: auto;
-  }
-
   .navbar-brand a {
     padding-left: 20px;
   }
