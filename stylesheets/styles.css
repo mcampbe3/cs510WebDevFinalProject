@@ -25,6 +25,14 @@ p {
   margin-top: 0px;
 }
 
+form {
+  width: 75%;
+}
+
+.logo, .btn-primary {
+  margin-right: 10px;
+}
+
 .navbar-brand a {
   color: var(--white);
 }
