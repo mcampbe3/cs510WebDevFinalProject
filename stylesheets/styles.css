@@ -1,9 +1,9 @@
 :root {
-  --white: #FFFFFF;
+  --white: #ffffff;
   --black: #000000;
-  --lightgray: #FFFFFFBF;
-  --medgray: #FFFFFF8C;
-  --darkgray: #343A40;
+  --lightgray: #ffffffbf;
+  --medgray: #ffffff8c;
+  --darkgray: #343a40;
 }
 
 .mainContent {
@@ -41,7 +41,8 @@ p {
   margin-top: 0px;
 }
 
-.logo, .btn-primary {
+.logo,
+.btn-primary {
   margin-right: 10px;
 }
 
