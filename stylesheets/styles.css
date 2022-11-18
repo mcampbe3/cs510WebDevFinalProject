@@ -66,6 +66,25 @@ li a.nav-link:hover {
   margin-bottom: 20px;
 }
 
+.dates {
+  font-style: italic;
+}
+
+#skills {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#education {
+  border-left: solid var(--darkgray) 1px;
+}
+
+#resume {
+  text-decoration: none;
+  color: var(--white);
+  text-align: center;
+}
+
 @media only screen and (min-width: 769px) {
   .navbar-brand a {
     padding-left: 50px;
